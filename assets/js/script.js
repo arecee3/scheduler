@@ -5,7 +5,7 @@ var $scheduleArea = $(".schedule");
 var toDoItems = [];
 //each object has a hour property and a text property
  
-var currentDate = moment().format("dddd, MMMM Do");
+var currentDate = moment().format(" dddd, MMMM Do hh:mm");
 var currentHour = moment().format("H");
 
 //if we don't have any todos set up, let's set up the array of objects
